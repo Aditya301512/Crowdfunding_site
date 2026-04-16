@@ -82,5 +82,26 @@ To build a transparent, reliable, and scalable crowdfunding platform that empowe
 * Limited scalability in initial version
 * Dependence on third-party services (authentication, payments)
 * Security and privacy requirements must be maintained
+## Quick Start – Local Development
 
+### Prerequisites
+- Node.js installed
+- Docker Desktop installed
+
+### Steps to Run
+
+1. Clone the repository:
+   git clone <your-repo-link>
+
+2. Navigate to project:
+   cd AIKYA_CrowdfundingPlatform
+
+3. Build Docker image:
+   docker build -t aikya .
+
+4. Run container:
+   docker run -p 3000:3000 aikya
+
+5. Open browser:
+   http://localhost:3000
 ---

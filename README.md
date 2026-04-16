@@ -105,3 +105,23 @@ To build a transparent, reliable, and scalable crowdfunding platform that empowe
 5. Open browser:
    http://localhost:3000
 ---
+## Software Design
+
+The system is designed using a modular architecture with clear separation between frontend, backend, and database layers.
+
+### Architecture Diagram
+![Architecture](docs/design/architecture.png)
+
+### UML Diagrams
+- Activity Diagraam
+- Class Diagram
+- Sequence Diagram
+- State Diagram
+- Component Diagram
+- Deployment Diagram
+
+### Figma Prototype
+[View Prototype](docs/design/figma.png)
+
+### Summary
+The system follows a client-server architecture where the frontend communicates with backend APIs. The backend handles business logic, authentication, and integrates with database and external services like payment gateways. Docker is used for containerization and deployment is handled using cloud platforms.

@@ -113,7 +113,7 @@ The system is designed using a modular architecture with clear separation betwee
 ![Architecture](docs/design/architecture.png)
 
 ### UML Diagrams
-- Activity Diagram
+- Activity Diagraam
 - Class Diagram
 - Sequence Diagram
 - State Diagram

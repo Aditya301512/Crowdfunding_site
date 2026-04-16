@@ -120,7 +120,8 @@ The system is designed using a modular architecture with clear separation betwee
 - Component Diagram
 - Deployment Diagram
 
-
+### Figma Prototype
+[View Prototype](docs/design/figma.png)
 
 ### Summary
 The system follows a client-server architecture where the frontend communicates with backend APIs. The backend handles business logic, authentication, and integrates with database and external services like payment gateways. Docker is used for containerization and deployment is handled using cloud platforms.
